@@ -1,0 +1,16 @@
+{
+  "license": true,
+  "show_info": false,
+  "show_ads": false,
+  "copyright": false,
+  "domain_info":true,
+  "login_text":"",
+  "blocks": {
+    "main_block": "dddd",
+    "main_block2": "dddddddddd",
+    "no_login_block": "dfgfdg"
+  },
+  "info_page": {
+    "lic_text":"<h3>Лицензия: <span class=\"btn btn-primary btn-xs\">АКТИВНА</span></h3>"
+  }
+}
