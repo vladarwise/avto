@@ -104,6 +104,16 @@
                         <span class="m-r-sm text-muted welcome-message">Добро пожаловать, {{Auth::user()->name}}
                             </span>
                     </li>
+					<li>
+                    <a href="<?php echo env('APP_URL_RUS','#');?>">
+                        RUS
+                    </a>
+					</li>
+					<li>
+                    <a href="<?php echo env('APP_URL_EN','#');?>">
+                        ENG
+                    </a>
+					</li>
                     <li>
                         <a  href="/logout">
                             <i class="fa fa-sign-out"></i> Выйти

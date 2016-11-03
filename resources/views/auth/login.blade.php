@@ -14,6 +14,18 @@
 </head>
 
 <body class="gray-bg">
+				<ul class="nav navbar-top-links navbar-right">
+					<li>
+                    <a href="<?php echo env('APP_URL_RUS','#');?>">
+                        RUS
+                    </a>
+					</li>
+					<li>
+                    <a href="<?php echo env('APP_URL_EN','#');?>">
+                        ENG
+                    </a>
+					</li>
+                </ul>
 <div class="loginColumns animated fadeInDown">
     <div class="row">
         <div class="col-md-6">
